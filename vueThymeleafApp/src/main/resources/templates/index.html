@@ -26,8 +26,8 @@
 				</div>
 			</div>
 			<hr>-->
-			<div class="card-deck">
-				<div class="card col-lg-4" v-for="player in players">
+			<div class="card-columns">
+				<div class="card" v-for="player in players">
 					<player-card2 v-bind:player="player" v-bind:key="player.id">
 					</player-card2>
 				</div>
@@ -56,7 +56,7 @@
 	<script type="text/babel">
     Vue.component('player-card', {
         props: ['player'],
-        template: `<div class="card">
+        template: `<div>
                     <div class="card-body">
                         <h6 class="card-title">
                             {{ player.name }}

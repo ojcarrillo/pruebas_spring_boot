@@ -30,15 +30,17 @@ public class IndexController {
 		ar.add(cristiano);
 		cristiano = new JsonObject();
 		cristiano.addProperty("id", 3);
-		cristiano.addProperty("name", "Christiano Ronaldo");
-		cristiano.addProperty("description", "Portugal top-ranked player");
-		cristiano.addProperty("img", "https://e.rpp-noticias.io/normal/2019/01/13/571857_738465.jpg");
+		cristiano.addProperty("name", "Andres Iniesta");
+		cristiano.addProperty("description", "Experimented Spain player");
+		cristiano.addProperty("img",
+				"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/ESP-RUS_%2815%29.jpg/245px-ESP-RUS_%2815%29.jpg");
 		ar.add(cristiano);
 		cristiano = new JsonObject();
 		cristiano.addProperty("id", 4);
-		cristiano.addProperty("name", "Christiano Ronaldo");
-		cristiano.addProperty("description", "Portugal top-ranked player");
-		cristiano.addProperty("img", "https://e.rpp-noticias.io/normal/2019/01/13/571857_738465.jpg");
+		cristiano.addProperty("name", "Kylian Mbappe");
+		cristiano.addProperty("description", "Young French ranked player");
+		cristiano.addProperty("img",
+				"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kylian_Mbapp%C3%A9_Russia_2018.jpg/245px-Kylian_Mbapp%C3%A9_Russia_2018.jpg");
 		ar.add(cristiano);
 		System.out.println(ar.toString());
 		model.addAttribute("eventName", "FIFA 2018").addAttribute("AppName", "Pruebas").addAttribute("data",
